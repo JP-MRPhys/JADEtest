@@ -20,5 +20,5 @@
 
 module load python3/anaconda
 
-source activate tensorflow-gpu2
+source activate tensorflow-gpu1
 python tftest.py
