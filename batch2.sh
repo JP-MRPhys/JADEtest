@@ -7,10 +7,10 @@
 #SBATCH -J JDPtest1
 
 # set number of GPUs
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:4
 
 #Select a partition
-#SBATCH --partition=devel
+#SBATCH --partition=big
 
 # mail alert at start, end and abortion of execution
 #SBATCH --mail-type=ALL
