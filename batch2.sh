@@ -18,6 +18,7 @@
 # send mail to this address
 #SBATCH --mail-user=jehill.parikh@newcastle.ac.uk
 
+module load cuda/9.0
 module load python3/anaconda
 
 source activate tensorflow-gpu
