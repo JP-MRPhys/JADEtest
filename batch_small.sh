@@ -16,7 +16,7 @@
 #SBATCH --mail-type=ALL
 
 # send mail to this address
-#SBATCH --mail-user=jehill.parikh@newcastle.ac.uk
+#SBATCH --mail-user=jehillparikh@gmail.com
 
 module load python3/anaconda
 
